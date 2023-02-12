@@ -1,0 +1,20 @@
+<html>
+<head>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+
+
+<div id="feedback-bg-info"><textarea></textarea></div>
+
+<script>
+$(document).ready(function() {
+      var refreshId =  setInterval( function(){
+    $('#feedback-bg-info').load('co2_0002/index.php');//actualizas el div
+   }, 1000 );
+});
+
+</script>
+</body>
+
+</html>
