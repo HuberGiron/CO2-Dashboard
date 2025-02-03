@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: my-php-app
+    runtime: php  # Asegúrate de que esto esté presente
+    buildCommand: "echo 'No build needed'"
+    startCommand: "php -S 0.0.0.0:8000 -t public"
